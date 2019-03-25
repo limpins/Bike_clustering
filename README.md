@@ -55,10 +55,8 @@ Displaying the model results
 STEP 10 : Saving the results
 Saving the model results
 
-## How to Run this program 
-# running Localy Using SBT 
 
-Submit the job to the cluser :
+# running on the cluster
 
 spark-submit --class Bike_clustering --master yarn \
   $Local_Path_Jar_Dir/bike_clustering_2.11-0.1.jar $HDFS_Path_Input_DIR/Brisbane_CityBike.json $HDFS_Path_Output_DIR $NumberClusters
